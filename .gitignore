@@ -16,7 +16,6 @@ buildNumber.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
@@ -25,3 +24,5 @@ hs_err_pid*
 /DBCase1.iml
 /tomcat.8080/
 /DBankWebTier/embeddedTomcatSample.iml
+.idea/workspace.xml
+/DBankWebTier/target/
