@@ -25,7 +25,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.db.DBwebConnector:example-app:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/DeutscheBankWebClientConnector.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/webapp/lib/DeutscheBankWebClientConnector.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -34,7 +34,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.mysql.dbConnector:example-app:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.23-bin.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/webapp/lib/mysql-connector-java-5.1.23-bin.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -43,7 +43,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.jackson.annotation:example-app:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/jackson-annotations-2.7.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/webapp/lib/jackson-annotations-2.7.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -52,7 +52,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.jackson.core:example-app:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/jackson-core-2.7.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/webapp/lib/jackson-core-2.7.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -61,7 +61,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.jackson.databind:example-app:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/jackson-databind-2.7.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/webapp/lib/jackson-databind-2.7.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

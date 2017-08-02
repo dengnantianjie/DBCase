@@ -48,35 +48,35 @@
             <artifactId>example-app</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/DeutscheBankWebClientConnector.jar</systemPath>
+            <systemPath>${basedir}/src/main/webapp/lib/DeutscheBankWebClientConnector.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.mysql.dbConnector</groupId>
             <artifactId>example-app</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.23-bin.jar</systemPath>
+            <systemPath>${basedir}/src/main/webapp/lib/mysql-connector-java-5.1.23-bin.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.jackson.annotation</groupId>
             <artifactId>example-app</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/jackson-annotations-2.7.0.jar</systemPath>
+            <systemPath>${basedir}/src/main/webapp/lib/jackson-annotations-2.7.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.jackson.core</groupId>
             <artifactId>example-app</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/jackson-core-2.7.0.jar</systemPath>
+            <systemPath>${basedir}/src/main/webapp/lib/jackson-core-2.7.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.jackson.databind</groupId>
             <artifactId>example-app</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/jackson-databind-2.7.0.jar</systemPath>
+            <systemPath>${basedir}/src/main/webapp/lib/jackson-databind-2.7.0.jar</systemPath>
         </dependency>
     </dependencies>
     <build>
