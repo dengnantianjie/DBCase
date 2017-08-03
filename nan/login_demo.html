@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HTML DEMO</title>
+</head>
+<body>
+<html>  
+<head>  
+    <title>Login</title>  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+    <script type="text/javascript">  
+        
+        window.onresize = setViewSize;  
+        var marginLeft=0;  
+        var marginTop=0;  
+       
+        function setViewSize() {  
+             
+            var w=window.innerWidth  
+             document.documentElement.clientWidth  
+             document.body.clientWidth;  
+            var h=window.innerHeight  
+             document.documentElement.clientHeight  
+             document.body.clientHeight;  
+           
+            marginLeft = (w-468)/2;  
+            marginTop = (h-262)/2;  
+            document.getElementById("loginFormMain").style.marginLeft=marginLeft;  
+            document.getElementById("loginFormMain").style.marginTop=marginTop;  
+        }  
+          
+       
+        function focusOnUsername() {  
+          
+            setViewSize();  
+           
+            if (document.loginForm) {  
+                var usernameInput = document.loginForm.username;  
+                if (usernameInput) {  
+                    usernameInput.focus();  
+                }  
+            }  
+            return;  
+        }  
+      
+        
+        function checkLogin(){  
+            if(checkUsername() && checkPassword()){  
+                 return true;  
+             }          
+            return false;  
+        }  
+        
+        function checkUsername(){  
+            var username = document.loginForm.username;  
+            if(username.value.length!=0){  
+                return true;  
+            }else{  
+                alert("Please input username");  
+                return false;  
+            }  
+        }  
+        
+        function checkPassword(){  
+            var password = document.loginForm.password;  
+            if(password.value.length!=0){  
+                return true;  
+            }else{  
+                alert("Please input password");  
+                return false;  
+            }  
+        }  
+    </script>  
+</head>  
+  
+<body bgcolor="#1E81C2" onload="javascript:focusOnUsername();" >  
+     <form  action="success.html" name="loginForm" >  
+     <div  id="loginFormMain">  
+         <table  style="width:468px;height:262px;background-color: gray;text-align: center;">  
+              <tr>  
+                 <th colspan="2" align="center" >login_system</th>  
+              </tr>  
+              <tr>  
+                  <td>uesrname:<input type="text" style="width: 200px;height: 30px;"  name="username"></td>  
+              </tr>  
+              <tr>  
+                  <td>password:<input type="password"  style="width: 200px;height: 30px;"  name="password"></td>  
+              </tr>  
+              <tr>  
+                  <td align="center" ><input  formmethod="post" type="submit" style="cursor: pointer;font-style: inherit;" name="submit"  onclick="return checkLogin();" value="Login" >   
+                      <input type="reset"  style="cursor: pointer;" name=reset  value="Reset"></td>  
+              </tr>  
+         </table>  
+     </div>  
+      </form>  
+</body>  
+</html>  
+
+</body>
+</html>
